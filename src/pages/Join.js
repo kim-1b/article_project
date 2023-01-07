@@ -18,7 +18,7 @@ function Join() {
 
   const 가입하기 = async () => {
     await axios({
-      url: "http://localhost:4000/join",
+      url: "18.183.82.9/join",
       method: "POST",
       data: data,
     }).then((response) => {
