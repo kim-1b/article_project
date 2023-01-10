@@ -13,7 +13,7 @@ function Login() {
 
   const 로그인하기 = async () => {
     await axios({
-      url: "http://login",
+      url: "http://18.183.82.9/login",
       method: "POST",
       data: data,
     }).then((response) => {
