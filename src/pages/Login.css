@@ -51,4 +51,6 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  border: none;
+  background-color: #fff;
 }
