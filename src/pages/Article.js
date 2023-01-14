@@ -13,7 +13,7 @@ function Article() {
 
   const 게시판상세정보가져오기 = async () => {
     await axios({
-      url: ""http://18.183.82.9:3306/article_row",
+      url: "hhttp://18.183.82.9:4000/article_row",
       params: {
         seq: seq,
       },
