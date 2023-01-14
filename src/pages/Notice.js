@@ -18,7 +18,7 @@ function Notice() {
 
   const 게시글정보가져 = async () => {
     await axios({
-      url: "http://localhost:4000/notice",
+      url: "http://18.183.82.9:22/notice",
       method: "GET",
     }).then((response) => {
       setNotice(response.data);
