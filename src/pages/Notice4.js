@@ -18,7 +18,7 @@ function Notice4() {
 
   const 게시글정보가져 = async () => {
     await axios({
-      url: "http://localhost:4000/notice4",
+      url: "http://18.183.82.9:4000/notice4",
       method: "GET",
     }).then((response) => {
       setNotice4(response.data);
@@ -62,7 +62,7 @@ function Notice4() {
 
   const 작성 = async () => {
     await axios({
-      url: "http://localhost:4000/notice4",
+      url: "http://18.183.82.9:4000/notice4",
       method: "POST",
       data: data,
     }).then((response) => {
