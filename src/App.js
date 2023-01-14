@@ -25,7 +25,7 @@ function App() {
 
   const 자동로그인 = async () => {
     await axios({
-      url: "http://18.183.82.9/autologin",
+      url: "http://18.183.82.9:22/autologin",
       method: "POST",
     }).then((response) => {
       console.log(response.data);
