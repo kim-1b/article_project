@@ -62,7 +62,7 @@ function Notice() {
 
   const 작성 = async () => {
     await axios({
-      url: "http://localhost:4000/notice",
+      url: "http://18.183.82.9:3306/notice",
       method: "POST",
       data: data,
     }).then((response) => {
