@@ -26,6 +26,10 @@ function Login() {
       }
     });
   };
+  
+  const 회원가입페이지로이동 = () => {
+    window.location.replace("/join");
+  };
 
   return (
     <div className="login">
@@ -45,7 +49,9 @@ function Login() {
       <button className="login-btn" type="button" onClick={로그인하기}>
         로그인
       </button>
-      <nav className="question">회원가입을 하지 않으셨나요?</nav>
+      <button onClick={회원가입페이지로이동} className="question">
+        회원가입을 하지 않으셨나요?
+      </button>
     </div>
   );
 }
